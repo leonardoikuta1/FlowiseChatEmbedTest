@@ -1226,7 +1226,7 @@ export const Bot = (botProps: BotProps & { class?: string }) => {
           <Badge
             footer={props.footer}
             badgeBackgroundColor={props.badgeBackgroundColor}
-            poweredByTextColor={props.poweredByTextColor}
+            poweredByTextColor="transparent"
             botContainer={botContainer}
           />
         </div>
